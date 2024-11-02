@@ -10,7 +10,7 @@ describe('Teste de login na plataforma usando massa de dados', () => {
     LoginPage.email(usuario.usuario);
     LoginPage.senha(usuario.senha);
     LoginPage.submit();
-    LoginPage.assertLoginSuccesso();
+    LoginPage.assertLoginSuccess();
     LoginPage.assertMensagem();
   };
 

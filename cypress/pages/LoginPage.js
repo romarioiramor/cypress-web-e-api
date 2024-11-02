@@ -15,7 +15,7 @@ class LoginPage {
       cy.get('[data-testid="entrar"]').click();
     }
   
-    assertLoginSuccesso() {
+    assertLoginSuccess() {
       cy.url().should('eq', 'https://front.serverest.dev/admin/home');
     }
 
